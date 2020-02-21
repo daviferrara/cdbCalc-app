@@ -1,4 +1,7 @@
-App to calculate CDB (Certificado de Depóstio Bancaário) investments within two date and percentage of CDI index
+# App to calculate CDB (Certificado de Depóstio Bancário) investments within two date and percentage of CDI index
+
+To change the api with CDI index to localhost edit src/App.js the const 'cdiURL'
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
