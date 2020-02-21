@@ -88,7 +88,7 @@ class CdiForm extends React.Component{
             alert("Favor informe Data inicial, taxa do CDB e data Final da aplicação ");
             return;
         }
-        const data = await fetch('http://localhost:8080/cdiList?'+
+        const data = await fetch('http://cdiapi-env.qg5gt7yzau.us-east-2.elasticbeanstalk.com/cdiList?'+
                  'dtIni='+dtIni.getFullYear()+ pad(dtIni.getMonth()+1)+pad(dtIni.getDate())+
                  '&currDt='+currDt.getFullYear()+ pad(currDt.getMonth()+1)+pad(currDt.getDate()))
               .then(response => response.json());

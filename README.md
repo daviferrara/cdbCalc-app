@@ -1,3 +1,5 @@
+App to calculate CDB (Certificado de Depóstio Bancaário) investments within two date and percentage of CDI index
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
